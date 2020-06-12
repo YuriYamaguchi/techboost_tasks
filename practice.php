@@ -2,20 +2,20 @@
 
 // practice
 echo 'hello php!';
-echo '<br>';
+echo "\n";
 
 // task 1
 $a = 3;
 $b = 7;
 echo $a+$b;
 
-echo '<br>';
+echo "\n";
 
 // task 2
 $array_month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
 echo $array_month[7];
 
-echo '<br>';
+echo "\n";
 
 // task 3
 $hello = "Hello, ";
@@ -23,14 +23,14 @@ $name = "Yuri Yamaguchi";
 $world = "'s World!";
 echo $hello.$name.$world;
 
-echo '<br>';
+echo "\n";
 
 // task 4
 $tech_boost = 'tech';
 $tech_boost .= ' boost';
 echo $tech_boost;
 
-echo '<br>';
+echo "\n";
 
 // task 5
 $calendar_2018 = [
@@ -49,6 +49,6 @@ $calendar_2018 = [
 ];
 echo $calendar_2018["December"];
 
-echo '<br>';
+echo "\n";
 
 ?>
