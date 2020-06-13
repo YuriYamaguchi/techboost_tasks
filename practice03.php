@@ -16,14 +16,11 @@ echo "\n";
 $sum = 0;
 for ($i = 0; $i <= 10000; $i++) {
   
-  if ($i == 10000) {
-    echo $sum;
-  }
-  else {
     $sum += $i;
-  }
+    
 }
 
+echo $sum;
 echo "\n";
 
 // task 3
