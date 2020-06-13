@@ -23,9 +23,9 @@ echo "\n";
 // task 3
 function multiplication($arr) {
 
-  $result = $arr[0]; 
-  for ($i = 1; $i < count($arr); $i++) {
-    $result *= $arr[$i];
+  $result = 1;
+  foreach($arr as $i) {
+    $result *= $i;
   }
   return $result;
   
